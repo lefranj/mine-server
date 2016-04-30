@@ -1,0 +1,538 @@
+[17:26:39] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[17:26:40] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[17:26:40] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_91, running on Windows 8:amd64:6.2, installed at C:\Program Files\Java\jre1.8.0_91
+[17:26:40] [main/DEBUG] [FML/]: Java classpath at launch is server.jar
+[17:26:40] [main/DEBUG] [FML/]: Java library path at launch is C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Bandizip\7z;.
+[17:26:40] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[17:26:40] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[17:26:40] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[17:26:40] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[17:26:40] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[17:26:40] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[17:26:40] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[17:26:40] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[17:26:40] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\mudro\Desktop\New Folder\.
+[17:26:40] [main/DEBUG] [FML/]: Discovering coremods
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:26:40] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy appliedenergistics2-rv2-stable-10.jar
+[17:26:40] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in appliedenergistics2-rv2-stable-10.jar, it will be examined later for regular @Mod instances
+[17:26:40] [main/DEBUG] [FML/]: Instantiating coremod class AppEngCore
+[17:26:40] [main/DEBUG] [FML/]: The coremod appeng.transformer.AppEngCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[17:26:40] [main/INFO] [FML/]: [AppEng] Core Init
+[17:26:40] [main/DEBUG] [FML/]: Added access transformer class appeng.transformer.asm.ASMTweaker to enqueued access transformers
+[17:26:40] [main/DEBUG] [FML/]: Enqueued coremod AppEngCore
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar
+[17:26:40] [main/DEBUG] [FML/]: Not found coremod data in BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy CompactSolars-1.7.10-4.4.41.316-universal.jar
+[17:26:40] [main/DEBUG] [FML/]: Not found coremod data in CompactSolars-1.7.10-4.4.41.316-universal.jar
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy IC2NuclearControl-2.3.3a-Exist.jar
+[17:26:40] [main/DEBUG] [FML/]: Not found coremod data in IC2NuclearControl-2.3.3a-Exist.jar
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy iChunUtil-4.2.2.jar
+[17:26:40] [main/DEBUG] [FML/]: Not found coremod data in iChunUtil-4.2.2.jar
+[17:26:40] [main/DEBUG] [FML/]: Examining for coremod candidacy industrialcraft-2-2.2.821-experimental.jar
+[17:26:40] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in industrialcraft-2-2.2.821-experimental.jar, it will be examined later for regular @Mod instances
+[17:26:40] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[17:26:40] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:26:41] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[17:26:41] [main/DEBUG] [FML/]: Examining for coremod candidacy mystcraft-1.7.10-0.12.3.02.jar
+[17:26:41] [main/DEBUG] [FML/]: Not found coremod data in mystcraft-1.7.10-0.12.3.02.jar
+[17:26:41] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenComputers-MC1.7.10-1.5.22.46-universal.jar
+[17:26:41] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-MC1.7.10-1.5.22.46-universal.jar, it will be examined later for regular @Mod instances
+[17:26:41] [main/DEBUG] [FML/]: Instantiating coremod class TransformerLoader
+[17:26:41] [main/DEBUG] [FML/]: The coremod li.cil.oc.common.launch.TransformerLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[17:26:41] [main/DEBUG] [FML/]: Enqueued coremod TransformerLoader
+[17:26:41] [main/DEBUG] [FML/]: Examining for coremod candidacy PlayerAPI-1.7.10-1.4.jar
+[17:26:42] [main/TRACE] [FML/]: Adding PlayerAPI-1.7.10-1.4.jar to the list of known coremods, it will not be examined again
+[17:26:42] [main/DEBUG] [FML/]: Instantiating coremod class PlayerAPIPlugin
+[17:26:42] [main/DEBUG] [FML/]: The coremod api.player.forge.PlayerAPIPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[17:26:42] [main/DEBUG] [FML/]: Enqueued coremod PlayerAPIPlugin
+[17:26:42] [main/DEBUG] [FML/]: Examining for coremod candidacy Railcraft_1.7.10-9.10.0.0.jar
+[17:26:42] [main/DEBUG] [FML/]: Not found coremod data in Railcraft_1.7.10-9.10.0.0.jar
+[17:26:42] [main/DEBUG] [FML/]: Examining for coremod candidacy RWG-alpha-1.3.2.jar
+[17:26:42] [main/DEBUG] [FML/]: Not found coremod data in RWG-alpha-1.3.2.jar
+[17:26:42] [main/DEBUG] [FML/]: Examining for coremod candidacy SmartMoving-1.7.10-15.6.jar
+[17:26:42] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in SmartMoving-1.7.10-15.6.jar, it will be examined later for regular @Mod instances
+[17:26:42] [main/DEBUG] [FML/]: Instantiating coremod class SmartCorePlugin
+[17:26:42] [main/DEBUG] [FML/]: The coremod net.smart.core.SmartCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[17:26:42] [main/DEBUG] [FML/]: Enqueued coremod SmartCorePlugin
+[17:26:42] [main/DEBUG] [FML/]: Examining for coremod candidacy SmartRender-1.7.10-2.1.jar
+[17:26:42] [main/DEBUG] [FML/]: Not found coremod data in SmartRender-1.7.10-2.1.jar
+[17:26:42] [main/DEBUG] [FML/]: Examining for coremod candidacy Sync-4.0.0.jar
+[17:26:42] [main/DEBUG] [FML/]: Not found coremod data in Sync-4.0.0.jar
+[17:26:42] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:42] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:26:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:42] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[17:26:42] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[17:26:42] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[17:26:42] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[17:26:42] [main/DEBUG] [FML/]: Injection complete
+[17:26:42] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[17:26:42] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[17:26:43] [main/DEBUG] [FML/]: Read 527 binary patches
+[17:26:43] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[17:26:43] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[17:26:43] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:43] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[17:26:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[17:26:43] [main/DEBUG] [FML/]: Injection complete
+[17:26:43] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[17:26:43] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[17:26:43] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[17:26:43] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:43] [main/DEBUG] [FML/]: Injecting coremod AppEngCore {appeng.transformer.AppEngCore} class transformers
+[17:26:43] [main/TRACE] [FML/]: Registering transformer appeng.transformer.asm.ASMIntegration
+[17:26:44] [main/DEBUG] [FML/]: Injection complete
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin for AppEngCore {appeng.transformer.AppEngCore}
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin AppEngCore
+[17:26:44] [main/DEBUG] [FML/]: Coremod plugin class AppEngCore run successfully
+[17:26:44] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:44] [main/DEBUG] [FML/]: Injecting coremod IC2core {ic2.core.coremod.IC2core} class transformers
+[17:26:44] [main/DEBUG] [FML/]: Injection complete
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin for IC2core {ic2.core.coremod.IC2core}
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin IC2core
+[17:26:44] [main/INFO] [IC2-core/]: Extracted library EJML-core-0.26.jar.
+[17:26:44] [main/INFO] [IC2-core/]: Loaded library EJML-core-0.26.jar.
+[17:26:44] [main/DEBUG] [FML/]: Coremod plugin class IC2core run successfully
+[17:26:44] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:44] [main/DEBUG] [FML/]: Injecting coremod TransformerLoader {li.cil.oc.common.launch.TransformerLoader} class transformers
+[17:26:44] [main/TRACE] [FML/]: Registering transformer li.cil.oc.common.asm.ClassTransformer
+[17:26:44] [main/DEBUG] [FML/]: Injection complete
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin for TransformerLoader {li.cil.oc.common.launch.TransformerLoader}
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin TransformerLoader
+[17:26:44] [main/DEBUG] [FML/]: Coremod plugin class TransformerLoader run successfully
+[17:26:44] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:44] [main/DEBUG] [FML/]: Injecting coremod PlayerAPIPlugin {api.player.forge.PlayerAPIPlugin} class transformers
+[17:26:44] [main/TRACE] [FML/]: Registering transformer api.player.forge.PlayerAPITransformer
+[17:26:44] [main/DEBUG] [FML/]: Injection complete
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin for PlayerAPIPlugin {api.player.forge.PlayerAPIPlugin}
+[17:26:44] [main/DEBUG] [FML/]: Running coremod plugin PlayerAPIPlugin
+[17:26:44] [main/DEBUG] [FML/]: Coremod plugin class PlayerAPIPlugin run successfully
+[17:26:44] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:44] [main/DEBUG] [FML/]: Injecting coremod SmartCorePlugin {net.smart.core.SmartCorePlugin} class transformers
+[17:26:44] [main/TRACE] [FML/]: Registering transformer net.smart.core.SmartCoreTransformer
+[17:26:45] [main/DEBUG] [FML/]: Injection complete
+[17:26:45] [main/DEBUG] [FML/]: Running coremod plugin for SmartCorePlugin {net.smart.core.SmartCorePlugin}
+[17:26:45] [main/DEBUG] [FML/]: Running coremod plugin SmartCorePlugin
+[17:26:45] [main/DEBUG] [FML/]: Coremod plugin class SmartCorePlugin run successfully
+[17:26:45] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:26:45] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[17:26:45] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[17:26:45] [main/DEBUG] [FML/]: Loaded 60 rules from AccessTransformer mod jar file C:\Users\mudro\Desktop\New Folder\mods\iChunUtil-4.2.2.jar!META-INF/iChunUtil_at.cfg
+
+[17:26:45] [main/DEBUG] [FML/]: Loaded 8 rules from AccessTransformer mod jar file C:\Users\mudro\Desktop\New Folder\mods\OpenComputers-MC1.7.10-1.5.22.46-universal.jar!META-INF/oc_at.cfg
+
+[17:26:45] [main/DEBUG] [FML/]: Validating minecraft
+[17:26:46] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[17:26:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[17:26:46] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[17:26:46] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[17:26:47] [main/INFO] [OpenComputers/]: Successfully patched sw.recreateLeash.
+[17:26:50] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[17:26:50] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[17:26:50] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[17:26:50] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[17:26:50] [Server thread/DEBUG] [FML/]: File C:\Users\mudro\Desktop\New Folder\config\injectedDependencies.json not found. No dependencies injected
+[17:26:50] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, appeng.transformer.AppEngCore, li.cil.oc.common.launch.CoreModContainer, api.player.forge.PlayerAPIContainer, net.smart.core.SmartCoreContainer]
+[17:26:50] [Server thread/INFO] [FML/]: [AppEng] Core Init
+[17:26:50] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\mudro\Desktop\New Folder\server.jar, examining for mod candidates
+[17:26:50] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\mudro\Desktop\New Folder\mods\appliedenergistics2-rv2-stable-10.jar
+[17:26:50] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\mudro\Desktop\New Folder\mods\industrialcraft-2-2.2.821-experimental.jar
+[17:26:50] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\mudro\Desktop\New Folder\mods\OpenComputers-MC1.7.10-1.5.22.46-universal.jar
+[17:26:50] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\mudro\Desktop\New Folder\mods\PlayerAPI-1.7.10-1.4.jar
+[17:26:50] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\mudro\Desktop\New Folder\mods\SmartMoving-1.7.10-15.6.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\mudro\Desktop\New Folder\.\mods\ic2\EJML-core-0.26.jar, examining for mod candidates
+[17:26:50] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[17:26:50] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[17:26:50] [Server thread/INFO] [FML/]: Searching C:\Users\mudro\Desktop\New Folder\mods for mods
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file appliedenergistics2-rv2-stable-10.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CompactSolars-1.7.10-4.4.41.316-universal.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate mod directory ic2
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file IC2NuclearControl-2.3.3a-Exist.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file iChunUtil-4.2.2.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file industrialcraft-2-2.2.821-experimental.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file mystcraft-1.7.10-0.12.3.02.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file OpenComputers-MC1.7.10-1.5.22.46-universal.jar
+[17:26:50] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker PlayerAPI-1.7.10-1.4.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Railcraft_1.7.10-9.10.0.0.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file RWG-alpha-1.3.2.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file SmartMoving-1.7.10-15.6.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file SmartRender-1.7.10-2.1.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Sync-4.0.0.jar
+[17:26:50] [Server thread/DEBUG] [FML/]: Examining file server.jar for potential mods
+[17:26:50] [Server thread/DEBUG] [FML/]: The mod container server.jar appears to be missing an mcmod.info file
+[17:26:51] [Server thread/DEBUG] [FML/]: Examining file EJML-core-0.26.jar for potential mods
+[17:26:51] [Server thread/DEBUG] [FML/]: The mod container EJML-core-0.26.jar appears to be missing an mcmod.info file
+[17:26:51] [Server thread/DEBUG] [FML/]: Examining file [1.7.10]Treecapitator-universal-2.0.4.jar for potential mods
+[17:26:51] [Server thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:26:51] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.treecapitator.TreecapitatorMod) - loading
+[17:26:51] [Server thread/TRACE] [Treecapitator/]: Using mcmod dependency info : [Forge@[10.13.2.1232,), bspkrsCore@[6.15,)] [Forge@[10.13.2.1232,), bspkrsCore@[6.15,)] []
+[17:26:51] [Server thread/DEBUG] [FML/]: Examining file appliedenergistics2-rv2-stable-10.jar for potential mods
+[17:26:51] [Server thread/TRACE] [FML/]: Located mcmod.info file in file appliedenergistics2-rv2-stable-10.jar
+[17:26:51] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (appeng.core.AppEng) - loading
+[17:26:51] [Server thread/TRACE] [appliedenergistics2/]: Parsed dependency info : [Forge@[10.13.2.1291,)] [appliedenergistics2-core, Forge@[10.13.2.1291,)] []
+[17:26:52] [Server thread/DEBUG] [FML/]: Examining file BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar for potential mods
+[17:26:52] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar
+[17:26:52] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (biomesoplenty.BiomesOPlenty) - loading
+[17:26:52] [Server thread/TRACE] [BiomesOPlenty/]: Parsed dependency info : [Forge@[10.13.4.1566,)] [Natura, Forge@[10.13.4.1566,)] []
+[17:26:52] [Server thread/DEBUG] [BiomesOPlenty/]: Attempting to load the file version.properties from BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar to locate a version number for BiomesOPlenty
+[17:26:52] [Server thread/DEBUG] [BiomesOPlenty/]: Found version 2.1.0 for mod BiomesOPlenty in version.properties, using
+[17:26:52] [Server thread/DEBUG] [FML/]: Examining file CompactSolars-1.7.10-4.4.41.316-universal.jar for potential mods
+[17:26:52] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CompactSolars-1.7.10-4.4.41.316-universal.jar
+[17:26:52] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cpw.mods.compactsolars.CompactSolars) - loading
+[17:26:52] [Server thread/TRACE] [CompactSolars/]: Parsed dependency info : [Forge@[10.12,), IC2@[2.1,)] [Forge@[10.12,), IC2@[2.1,)] []
+[17:26:52] [Server thread/DEBUG] [CompactSolars/]: Attempting to load the file version.properties from CompactSolars-1.7.10-4.4.41.316-universal.jar to locate a version number for CompactSolars
+[17:26:52] [Server thread/DEBUG] [CompactSolars/]: Found version 4.4.41.316 for mod CompactSolars in version.properties, using
+[17:26:52] [Server thread/DEBUG] [FML/]: Examining directory ic2 for potential mods
+[17:26:52] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory ic2
+[17:26:52] [Server thread/DEBUG] [FML/]: Examining file IC2NuclearControl-2.3.3a-Exist.jar for potential mods
+[17:26:52] [Server thread/TRACE] [FML/]: Located mcmod.info file in file IC2NuclearControl-2.3.3a-Exist.jar
+[17:26:52] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (shedar.mods.ic2.nuclearcontrol.IC2NuclearControl) - loading
+[17:26:52] [Server thread/TRACE] [IC2NuclearControl/]: Parsed dependency info : [IC2] [IC2] []
+[17:26:53] [Server thread/DEBUG] [FML/]: Examining file iChunUtil-4.2.2.jar for potential mods
+[17:26:53] [Server thread/TRACE] [FML/]: Located mcmod.info file in file iChunUtil-4.2.2.jar
+[17:26:53] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ichun.common.iChunUtil) - loading
+[17:26:53] [Server thread/TRACE] [iChunUtil/]: Parsed dependency info : [Forge@[10.13.2.1291,)] [Forge@[10.13.2.1291,)] []
+[17:26:53] [Server thread/DEBUG] [FML/]: Examining file industrialcraft-2-2.2.821-experimental.jar for potential mods
+[17:26:53] [Server thread/TRACE] [FML/]: Located mcmod.info file in file industrialcraft-2-2.2.821-experimental.jar
+[17:26:53] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ic2.core.IC2) - loading
+[17:26:53] [Server thread/TRACE] [IC2/]: Parsed dependency info : [Forge@[10.13.0.1200,)] [Forge@[10.13.0.1200,)] []
+[17:26:53] [Server thread/DEBUG] [FML/]: Examining file mystcraft-1.7.10-0.12.3.02.jar for potential mods
+[17:26:53] [Server thread/TRACE] [FML/]: Located mcmod.info file in file mystcraft-1.7.10-0.12.3.02.jar
+[17:26:53] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.xcompwiz.mystcraft.Mystcraft) - loading
+[17:26:53] [Server thread/TRACE] [Mystcraft/]: Parsed dependency info : [Forge@[10.12.1.1083,)] [Forge@[10.12.1.1083,)] []
+[17:26:53] [Server thread/DEBUG] [FML/]: Examining file OpenComputers-MC1.7.10-1.5.22.46-universal.jar for potential mods
+[17:26:53] [Server thread/TRACE] [FML/]: Located mcmod.info file in file OpenComputers-MC1.7.10-1.5.22.46-universal.jar
+[17:26:53] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (li.cil.oc.OpenComputers) - loading
+[17:26:53] [Server thread/TRACE] [OpenComputers/]: Using mcmod dependency info : [Forge@[10.13.0.1180,)] [BuildCraft|Core, ComputerCraft, EnderStorage, ForgeMultipart, IC2, MineFactoryReloaded, ProjRed|Transmission, RedLogic, StargateTech2, Thaumcraft, ThermalExpansion] []
+[17:26:55] [Server thread/DEBUG] [FML/]: Examining file Railcraft_1.7.10-9.10.0.0.jar for potential mods
+[17:26:55] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Railcraft_1.7.10-9.10.0.0.jar
+[17:26:55] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mods.railcraft.common.core.Railcraft) - loading
+[17:26:55] [Server thread/TRACE] [Railcraft/]: Using mcmod dependency info : [Forge] [] []
+[17:26:55] [Server thread/DEBUG] [FML/]: Examining file RWG-alpha-1.3.2.jar for potential mods
+[17:26:55] [Server thread/TRACE] [FML/]: Located mcmod.info file in file RWG-alpha-1.3.2.jar
+[17:26:55] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (rwg.RWG) - loading
+[17:26:55] [Server thread/TRACE] [RWG/]: Parsed dependency info : [] [] []
+[17:26:55] [Server thread/DEBUG] [FML/]: Examining file SmartMoving-1.7.10-15.6.jar for potential mods
+[17:26:55] [Server thread/TRACE] [FML/]: Located mcmod.info file in file SmartMoving-1.7.10-15.6.jar
+[17:26:55] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.smart.moving.SmartMovingMod) - loading
+[17:26:55] [Server thread/TRACE] [SmartMoving/]: Parsed dependency info : [PlayerAPI@[1.3,)] [PlayerAPI@[1.3,)] []
+[17:26:55] [Server thread/DEBUG] [FML/]: Examining file SmartRender-1.7.10-2.1.jar for potential mods
+[17:26:55] [Server thread/TRACE] [FML/]: Located mcmod.info file in file SmartRender-1.7.10-2.1.jar
+[17:26:55] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.smart.render.SmartRenderMod) - loading
+[17:26:55] [Server thread/TRACE] [SmartRender/]: Parsed dependency info : [PlayerAPI@[1.3,)] [PlayerAPI@[1.3,)] []
+[17:26:55] [Server thread/DEBUG] [FML/]: Examining file Sync-4.0.0.jar for potential mods
+[17:26:55] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Sync-4.0.0.jar
+[17:26:55] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (sync.common.Sync) - loading
+[17:26:55] [Server thread/TRACE] [Sync/]: Parsed dependency info : [iChunUtil@[4.0.0,)] [iChunUtil@[4.0.0,), CoFHCore, Waila] []
+[17:26:55] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 21 mods to load
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.fs (owned by OpenComputers|Core providing OpenComputersAPI|FileSystem) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API biomesoplenty.api (owned by BiomesOPlenty providing BiomesOPlentyAPI) embedded in BiomesOPlenty
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.tile (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.events (owned by RailcraftAPI|core providing RailcraftAPI|events) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API appeng.api (owned by appliedenergistics2 providing appliedenergistics2|API) embedded in appliedenergistics2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in IC2NuclearControl
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.carts (owned by RailcraftAPI|core providing RailcraftAPI|carts) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.tile (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.manual (owned by OpenComputers|Core providing OpenComputersAPI|Manual) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in IC2NuclearControl
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.machine (owned by OpenComputers|Core providing OpenComputersAPI|Machine) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.core (owned by Railcraft providing RailcraftAPI|core) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.core.items (owned by RailcraftAPI|core providing RailcraftAPI|items) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.event (owned by OpenComputers|Core providing OpenComputersAPI|Event) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.recipe (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.component (owned by OpenComputers|Core providing OpenComputersAPI|Component) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.network (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.driver (owned by OpenComputers|Core providing OpenComputersAPI|Driver) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.network (owned by OpenComputers|Core providing OpenComputersAPI|Network) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.carts.locomotive (owned by RailcraftAPI|carts providing RailcraftAPI|locomotive) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.prefab (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.internal (owned by OpenComputers|Core providing OpenComputersAPI|Internal) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.event (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.reactor (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.fuel (owned by RailcraftAPI|core providing RailcraftAPI|fuel) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.util (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.prefab (owned by OpenComputers|Core providing OpenComputersAPI|Prefab) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.carts.bore (owned by RailcraftAPI|carts providing RailcraftAPI|bore) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api (owned by OpenComputers|Core providing OpenComputersAPI|Core) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.tracks (owned by RailcraftAPI|core providing RailcraftAPI|tracks) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API shedar.mods.ic2.nuclearcontrol.api (owned by IC2NuclearControl providing NuclearControlAPI) embedded in IC2NuclearControl
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.helpers (owned by RailcraftAPI|core providing RailcraftAPI|helpers) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.item (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.info (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.electricity (owned by RailcraftAPI|core providing RailcraftAPI|electricity) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.crafting (owned by RailcraftAPI|core providing RailcraftAPI|crafting) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.crops (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API li.cil.oc.api.driver.item (owned by OpenComputers|Core providing OpenComputersAPI|Driver|Item) embedded in OpenComputers
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API ic2.api.event (owned by IC2 providing IC2API) embedded in IC2
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API mods.railcraft.api.signals (owned by RailcraftAPI|core providing RailcraftAPI|signals) embedded in Railcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API com.xcompwiz.mystcraft.api (owned by Mystcraft providing Mystcraft|API) embedded in Mystcraft
+[17:26:55] [Server thread/DEBUG] [FML/]: Found API thaumcraft.api (owned by Thaumcraft providing Thaumcraft|API) embedded in Railcraft
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|fuel:1.0.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|fuel: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent RailcraftAPI|core from APIContainer{RailcraftAPI|locomotive:1.0.1}
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|locomotive:1.0.1}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|locomotive: owner: RailcraftAPI|carts, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.2}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [IC2NuclearControl, Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Driver|Item: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|signals:2.2.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|signals: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [IC2NuclearControl, Railcraft]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|carts:1.6.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|carts: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|blocks:1.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|blocks: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|events:1.0.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|events: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|crafting:1.0.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|crafting: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tablet:1.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tablet: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Event: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tools:1.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tools: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API appliedenergistics2|API: owner: appliedenergistics2, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent RailcraftAPI|core from APIContainer{RailcraftAPI|bore:1.0.0}
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|bore:1.0.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|bore: owner: RailcraftAPI|carts, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Mystcraft|API: owner: Mystcraft, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|items:1.1}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|items: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|library:2.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|library: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Network: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|items:1.0.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|items: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API NuclearControlAPI: owner: IC2NuclearControl, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|tracks:2.2.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|tracks: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|core: owner: BuildCraft|Core, dependents: [Railcraft]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tiles:1.2}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tiles: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|lists:1.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|lists: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Machine: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|transport:4.1}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|transport: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BiomesOPlentyAPI: owner: BiomesOPlenty, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Manual: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Thaumcraft|API: owner: Thaumcraft, dependents: [Railcraft]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|statements:1.1}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|statements: owner: BuildCraftAPI|core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|crops: owner: BuildCraftAPI|Core, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Prefab: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|core: owner: Railcraft, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Core: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Component: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Internal: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|FileSystem: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|helpers:1.1.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|helpers: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/TRACE] [FML/]: Removing upstream parent Railcraft from APIContainer{RailcraftAPI|electricity:1.6.0}
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API RailcraftAPI|electricity: owner: RailcraftAPI|core, dependents: []
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API IC2API: owner: IC2, dependents: [Railcraft]
+[17:26:55] [Server thread/DEBUG] [FML/]: Creating API container dummy for API OpenComputersAPI|Driver: owner: OpenComputers|Core, dependents: [OpenComputers]
+[17:26:55] [Server thread/TRACE] [FML/]: Received a system property request ''
+[17:26:55] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[17:26:55] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in server.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in server.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[17:26:56] [Server thread/DEBUG] [Treecapitator/]: Enabling mod Treecapitator
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in [1.7.10]Treecapitator-universal-2.0.4.jar [en_US]
+[17:26:56] [Server thread/DEBUG] [appliedenergistics2/]: Enabling mod appliedenergistics2
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in appliedenergistics2-rv2-stable-10.jar [it_IT, ro_RO, de_DE, ko_KR, ru_RU, pt_BR, zh_TW, en_US, cs_CZ, fr_FR, es_ES, zh_CN, hu_HU]
+[17:26:56] [Server thread/DEBUG] [BiomesOPlenty/]: Enabling mod BiomesOPlenty
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar [pl_PL, da_DK, en_US, fr_CA, pt_BR, ja_JP, fr_FR, ru_RU, de_DE, zh_TW, it_IT, zh_CN, nl_NL]
+[17:26:56] [Server thread/DEBUG] [CompactSolars/]: Enabling mod CompactSolars
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in CompactSolars-1.7.10-4.4.41.316-universal.jar [sv_SE, pl_PL, da_DK, en_US, pt_BR, tr_TR, es_ES, fr_FR, ru_RU, el_GR, de_DE, it_IT, ko_KR, zh_CN]
+[17:26:56] [Server thread/DEBUG] [IC2NuclearControl/]: Enabling mod IC2NuclearControl
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in IC2NuclearControl-2.3.3a-Exist.jar [en_PT, es_AR, de_DE, en_US, tr_TR, pt_BR, zh_CN, es_MX, es_VE, se_SE, fr_FR, es_UY, it_IT, es_ES, ru_RU]
+[17:26:56] [Server thread/DEBUG] [iChunUtil/]: Enabling mod iChunUtil
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in iChunUtil-4.2.2.jar [bg_BG, de_DE, en_US, es_ES, fr_FR, ru_RU]
+[17:26:56] [Server thread/DEBUG] [IC2/]: Enabling mod IC2
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in industrialcraft-2-2.2.821-experimental.jar [en_IC]
+[17:26:56] [Server thread/DEBUG] [Mystcraft/]: Enabling mod Mystcraft
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in mystcraft-1.7.10-0.12.3.02.jar [cs_CZ, de_DE, en_GB, en_PT, en_US, es_ES, fi_FI, fr_FR, it_IT, nl_NL, pt_BR, ru_RU, zh_CN, zh_TW]
+[17:26:56] [Server thread/DEBUG] [OpenComputers/]: Enabling mod OpenComputers
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in OpenComputers-MC1.7.10-1.5.22.46-universal.jar [zh_TW, it_IT, ru_RU, zh_CN, pt_PT, fr_FR, en_US, de_DE]
+[17:26:56] [Server thread/DEBUG] [Railcraft/]: Enabling mod Railcraft
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in Railcraft_1.7.10-9.10.0.0.jar [cs_CZ, de_DE, en_GB, en_US, es_AR, es_ES, es_MX, es_UY, es_VE, fr_FR, hr_HR, hu_HU, it_IT, ja_JP, ko_KR, nl_NL, no_NO, pl_PL, pt_BR, pt_PT, ru_RU, sr_SP, zh_CN, zh_TW]
+[17:26:56] [Server thread/DEBUG] [RWG/]: Enabling mod RWG
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in RWG-alpha-1.3.2.jar [en_US]
+[17:26:56] [Server thread/DEBUG] [SmartMoving/]: Enabling mod SmartMoving
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in SmartMoving-1.7.10-15.6.jar [en_US, nl_NL, pt_BR, ru_RU]
+[17:26:56] [Server thread/DEBUG] [SmartRender/]: Enabling mod SmartRender
+[17:26:56] [Server thread/DEBUG] [Sync/]: Enabling mod Sync
+[17:26:56] [Server thread/DEBUG] [FML/]: Found translations in Sync-4.0.0.jar [da_DK, de_DE, en_US, es_AR, es_ES, et_EE, fi_FI, fr_FR, hr_HR, nb_NO, nl_NL, pl_PL, pt_BR, ru_RU, uk_UA, zh_CN, zh_TW]
+[17:26:56] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[17:26:56] [Server thread/ERROR] [FML/]: The mod Treecapitator (Treecapitator) requires mods [bspkrsCore] to be available
+[17:26:56] [Server thread/DEBUG] [FML/]: Mod sorting data
+[17:26:56] [Server thread/DEBUG] [FML/]: 	Treecapitator(Treecapitator:1.7.10): [1.7.10]Treecapitator-universal-2.0.4.jar ()
+[17:26:56] [Server thread/DEBUG] [FML/]: 	appliedenergistics2(Applied Energistics 2:rv2-stable-10): appliedenergistics2-rv2-stable-10.jar (after:appliedenergistics2-core;required-after:Forge@[10.13.2.1291,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	BiomesOPlenty(Biomes O' Plenty:2.1.0): BiomesOPlenty-1.7.10-2.1.0.1826-universal.jar (after:Natura; required-after:Forge@[10.13.4.1566,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	CompactSolars(Compact Solar Arrays:4.4.41.316): CompactSolars-1.7.10-4.4.41.316-universal.jar (required-after:Forge@[10.12,);required-after:IC2@[2.1,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	IC2NuclearControl(Nuclear Control 2:2.3.3a-Exist): IC2NuclearControl-2.3.3a-Exist.jar (required-after:IC2)
+[17:26:56] [Server thread/DEBUG] [FML/]: 	iChunUtil(iChunUtil:4.2.2): iChunUtil-4.2.2.jar (required-after:Forge@[10.13.2.1291,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	IC2(IndustrialCraft 2:2.2.821-experimental): industrialcraft-2-2.2.821-experimental.jar (required-after:Forge@[10.13.0.1200,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	Mystcraft(Mystcraft:0.12.3.02): mystcraft-1.7.10-0.12.3.02.jar (required-after:Forge@[10.12.1.1083,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	OpenComputers(OpenComputers:1.5.22.46): OpenComputers-MC1.7.10-1.5.22.46-universal.jar ()
+[17:26:56] [Server thread/DEBUG] [FML/]: 	Railcraft(Railcraft:9.10.0.0): Railcraft_1.7.10-9.10.0.0.jar ()
+[17:26:56] [Server thread/DEBUG] [FML/]: 	RWG(Realistic World Gen Alpha:Alpha 1.3.2): RWG-alpha-1.3.2.jar ()
+[17:26:56] [Server thread/DEBUG] [FML/]: 	SmartMoving(Smart Moving:15.6): SmartMoving-1.7.10-15.6.jar (required-after:PlayerAPI@[1.3,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	SmartRender(Smart Render:2.1): SmartRender-1.7.10-2.1.jar (required-after:PlayerAPI@[1.3,))
+[17:26:56] [Server thread/DEBUG] [FML/]: 	Sync(Sync:4.0.0): Sync-4.0.0.jar (required-after:iChunUtil@[4.0.0,);after:CoFHCore;after:Waila)
+[17:26:56] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[17:26:56] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[17:26:56] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,002s
+[17:26:56] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[17:26:56] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,001s
+[17:26:56] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[17:26:56] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,002s
+[17:26:56] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLModIdMappingEvent to mod appliedenergistics2-core
+[17:26:56] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLModIdMappingEvent to mod appliedenergistics2-core
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AppliedEnergistics2 Core took 0,003s
+[17:26:56] [Server thread/TRACE] [OpenComputers|Core/OpenComputers|Core]: Sending event FMLModIdMappingEvent to mod OpenComputers|Core
+[17:26:56] [Server thread/TRACE] [OpenComputers|Core/OpenComputers|Core]: Sent event FMLModIdMappingEvent to mod OpenComputers|Core
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - OpenComputers (Core) took 0,002s
+[17:26:56] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLModIdMappingEvent to mod PlayerAPI
+[17:26:56] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLModIdMappingEvent to mod PlayerAPI
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Player API took 0,001s
+[17:26:56] [Server thread/TRACE] [SmartCore/SmartCore]: Sending event FMLModIdMappingEvent to mod SmartCore
+[17:26:56] [Server thread/TRACE] [SmartCore/SmartCore]: Sent event FMLModIdMappingEvent to mod SmartCore
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Smart Core took 0,001s
+[17:26:56] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLModIdMappingEvent to mod Treecapitator
+[17:26:56] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLModIdMappingEvent to mod Treecapitator
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Treecapitator took 0,001s
+[17:26:56] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLModIdMappingEvent to mod appliedenergistics2
+[17:26:56] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLModIdMappingEvent to mod appliedenergistics2
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Applied Energistics 2 took 0,001s
+[17:26:56] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]: Sending event FMLModIdMappingEvent to mod BiomesOPlenty
+[17:26:56] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]: Sent event FMLModIdMappingEvent to mod BiomesOPlenty
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Biomes O' Plenty took 0,001s
+[17:26:56] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sending event FMLModIdMappingEvent to mod CompactSolars
+[17:26:56] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sent event FMLModIdMappingEvent to mod CompactSolars
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Compact Solar Arrays took 0,001s
+[17:26:56] [Server thread/TRACE] [IC2NuclearControl/IC2NuclearControl]: Sending event FMLModIdMappingEvent to mod IC2NuclearControl
+[17:26:56] [Server thread/TRACE] [IC2NuclearControl/IC2NuclearControl]: Sent event FMLModIdMappingEvent to mod IC2NuclearControl
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Nuclear Control 2 took 0,001s
+[17:26:56] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sending event FMLModIdMappingEvent to mod iChunUtil
+[17:26:56] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sent event FMLModIdMappingEvent to mod iChunUtil
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - iChunUtil took 0,001s
+[17:26:56] [Server thread/TRACE] [IC2/IC2]: Sending event FMLModIdMappingEvent to mod IC2
+[17:26:56] [Server thread/TRACE] [IC2/IC2]: Sent event FMLModIdMappingEvent to mod IC2
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - IndustrialCraft 2 took 0,001s
+[17:26:56] [Server thread/TRACE] [Mystcraft/Mystcraft]: Sending event FMLModIdMappingEvent to mod Mystcraft
+[17:26:56] [Server thread/TRACE] [Mystcraft/Mystcraft]: Sent event FMLModIdMappingEvent to mod Mystcraft
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Mystcraft took 0,001s
+[17:26:56] [Server thread/TRACE] [OpenComputers/OpenComputers]: Sending event FMLModIdMappingEvent to mod OpenComputers
+[17:26:56] [Server thread/TRACE] [OpenComputers/OpenComputers]: Sent event FMLModIdMappingEvent to mod OpenComputers
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - OpenComputers took 0,001s
+[17:26:56] [Server thread/TRACE] [Railcraft/Railcraft]: Sending event FMLModIdMappingEvent to mod Railcraft
+[17:26:56] [Server thread/TRACE] [Railcraft/Railcraft]: Sent event FMLModIdMappingEvent to mod Railcraft
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Railcraft took 0,001s
+[17:26:56] [Server thread/TRACE] [RWG/RWG]: Sending event FMLModIdMappingEvent to mod RWG
+[17:26:56] [Server thread/TRACE] [RWG/RWG]: Sent event FMLModIdMappingEvent to mod RWG
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Realistic World Gen Alpha took 0,001s
+[17:26:56] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sending event FMLModIdMappingEvent to mod SmartMoving
+[17:26:56] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sent event FMLModIdMappingEvent to mod SmartMoving
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Smart Moving took 0,001s
+[17:26:56] [Server thread/TRACE] [SmartRender/SmartRender]: Sending event FMLModIdMappingEvent to mod SmartRender
+[17:26:56] [Server thread/TRACE] [SmartRender/SmartRender]: Sent event FMLModIdMappingEvent to mod SmartRender
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Smart Render took 0,001s
+[17:26:56] [Server thread/TRACE] [Sync/Sync]: Sending event FMLModIdMappingEvent to mod Sync
+[17:26:56] [Server thread/TRACE] [Sync/Sync]: Sent event FMLModIdMappingEvent to mod Sync
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Sync took 0,003s
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,025s
+[17:26:56] [Server thread/INFO] [FML/]: Applying holder lookups
+[17:26:56] [Server thread/INFO] [FML/]: Holder lookups applied
+[17:26:56] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[17:26:56] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,001s
+[17:26:56] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[17:26:56] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,001s
+[17:26:56] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[17:26:56] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,001s
+[17:26:56] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLServerStoppedEvent to mod appliedenergistics2-core
+[17:26:56] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLServerStoppedEvent to mod appliedenergistics2-core
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AppliedEnergistics2 Core took 0,001s
+[17:26:56] [Server thread/TRACE] [OpenComputers|Core/OpenComputers|Core]: Sending event FMLServerStoppedEvent to mod OpenComputers|Core
+[17:26:56] [Server thread/TRACE] [OpenComputers|Core/OpenComputers|Core]: Sent event FMLServerStoppedEvent to mod OpenComputers|Core
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - OpenComputers (Core) took 0,001s
+[17:26:56] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLServerStoppedEvent to mod PlayerAPI
+[17:26:56] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLServerStoppedEvent to mod PlayerAPI
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Player API took 0,001s
+[17:26:56] [Server thread/TRACE] [SmartCore/SmartCore]: Sending event FMLServerStoppedEvent to mod SmartCore
+[17:26:56] [Server thread/TRACE] [SmartCore/SmartCore]: Sent event FMLServerStoppedEvent to mod SmartCore
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Smart Core took 0,003s
+[17:26:56] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLServerStoppedEvent to mod Treecapitator
+[17:26:56] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLServerStoppedEvent to mod Treecapitator
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Treecapitator took 0,001s
+[17:26:56] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLServerStoppedEvent to mod appliedenergistics2
+[17:26:56] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLServerStoppedEvent to mod appliedenergistics2
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Applied Energistics 2 took 0,002s
+[17:26:56] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]: Sending event FMLServerStoppedEvent to mod BiomesOPlenty
+[17:26:56] [Server thread/TRACE] [BiomesOPlenty/BiomesOPlenty]: Sent event FMLServerStoppedEvent to mod BiomesOPlenty
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Biomes O' Plenty took 0,001s
+[17:26:56] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sending event FMLServerStoppedEvent to mod CompactSolars
+[17:26:56] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sent event FMLServerStoppedEvent to mod CompactSolars
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Compact Solar Arrays took 0,001s
+[17:26:56] [Server thread/TRACE] [IC2NuclearControl/IC2NuclearControl]: Sending event FMLServerStoppedEvent to mod IC2NuclearControl
+[17:26:56] [Server thread/TRACE] [IC2NuclearControl/IC2NuclearControl]: Sent event FMLServerStoppedEvent to mod IC2NuclearControl
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Nuclear Control 2 took 0,001s
+[17:26:56] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sending event FMLServerStoppedEvent to mod iChunUtil
+[17:26:56] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sent event FMLServerStoppedEvent to mod iChunUtil
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - iChunUtil took 0,001s
+[17:26:56] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+[17:26:56] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 took 0,001s
+[17:26:56] [Server thread/TRACE] [Mystcraft/Mystcraft]: Sending event FMLServerStoppedEvent to mod Mystcraft
+[17:26:56] [Server thread/TRACE] [Mystcraft/Mystcraft]: Sent event FMLServerStoppedEvent to mod Mystcraft
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Mystcraft took 0,001s
+[17:26:56] [Server thread/TRACE] [OpenComputers/OpenComputers]: Sending event FMLServerStoppedEvent to mod OpenComputers
+[17:26:56] [Server thread/TRACE] [OpenComputers/OpenComputers]: Sent event FMLServerStoppedEvent to mod OpenComputers
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - OpenComputers took 0,001s
+[17:26:56] [Server thread/TRACE] [Railcraft/Railcraft]: Sending event FMLServerStoppedEvent to mod Railcraft
+[17:26:56] [Server thread/TRACE] [Railcraft/Railcraft]: Sent event FMLServerStoppedEvent to mod Railcraft
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Railcraft took 0,001s
+[17:26:56] [Server thread/TRACE] [RWG/RWG]: Sending event FMLServerStoppedEvent to mod RWG
+[17:26:56] [Server thread/TRACE] [RWG/RWG]: Sent event FMLServerStoppedEvent to mod RWG
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Realistic World Gen Alpha took 0,000s
+[17:26:56] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sending event FMLServerStoppedEvent to mod SmartMoving
+[17:26:56] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sent event FMLServerStoppedEvent to mod SmartMoving
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Smart Moving took 0,001s
+[17:26:56] [Server thread/TRACE] [SmartRender/SmartRender]: Sending event FMLServerStoppedEvent to mod SmartRender
+[17:26:56] [Server thread/TRACE] [SmartRender/SmartRender]: Sent event FMLServerStoppedEvent to mod SmartRender
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Smart Render took 0,000s
+[17:26:56] [Server thread/TRACE] [Sync/Sync]: Sending event FMLServerStoppedEvent to mod Sync
+[17:26:56] [Server thread/TRACE] [Sync/Sync]: Sent event FMLServerStoppedEvent to mod Sync
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Sync took 0,001s
+[17:26:56] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,018s
+[17:26:56] [Server thread/INFO] [FML/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
